@@ -1,30 +1,30 @@
 /*
-Syntax error: Invalid CSS after "#navbar ": expected selector, was "{"
-        on line 9 of /Users/cfarman/Sites/testing-compass/sass/screen.sass
+Syntax error: Invalid CSS after "solid": expected expression (e.g. 1px, bold), was ";"
+        on line 18 of /Users/cfarman/Sites/testing-compass/sass/screen.sass
 
 Backtrace:
-/Users/cfarman/Sites/testing-compass/sass/screen.sass:9
+/Users/cfarman/Sites/testing-compass/sass/screen.sass:18
 /Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/scss/parser.rb:1010:in `expected'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/scss/parser.rb:956:in `expected'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/scss/static_parser.rb:19:in `parse_selector'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:232:in `visit_rule'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/script/lexer.rb:191:in `expected!'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/script/parser.rb:465:in `assert_done'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/script/parser.rb:50:in `parse'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/script/parser.rb:140:in `parse'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/script.rb:31:in `parse'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:832:in `parse_script'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:593:in `parse_property'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:582:in `parse_property_or_rule'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:563:in `parse_line'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:456:in `build_tree'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:475:in `append_children'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:474:in `each'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:474:in `append_children'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:465:in `build_tree'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:458:in `each'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:458:in `build_tree'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:475:in `append_children'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:474:in `each'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:474:in `append_children'
+/Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:330:in `_to_tree'
 /Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:300:in `_render'
 /Users/cfarman/.gem/ruby/1.8/gems/sass-3.1.19/lib/sass/../sass/engine.rb:247:in `render'
 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
@@ -69,4 +69,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"#navbar \": expected selector, was \"{\"\A         on line 9 of /Users/cfarman/Sites/testing-compass/sass/screen.sass"; }
+  content: "Syntax error: Invalid CSS after \"solid\": expected expression (e.g. 1px, bold), was \";\"\A         on line 18 of /Users/cfarman/Sites/testing-compass/sass/screen.sass"; }
